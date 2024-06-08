@@ -1,0 +1,18 @@
+Features
+Random Board Generation: Uses boggle_board_randomizer.py to generate a new board for each game.
+Interactive GUI: Provides a user-friendly interface with start_game_frame.py, game_frame.py, and final_frame.py to
+ manage different stages of the game.
+Word Validation: Checks words against a dictionary file boggle_dict.txt to validate player input.
+Score Tracking: Keeps track of the player’s score based on the words formed.
+Play Again Option: Offers the option to start a new game after finishing a round.
+
+Files Description
+boggle.py: Main file containing the GameManager class which coordinates the overall game flow and transitions between
+ different game stages.
+boggle_board_randomizer.py: Handles the randomization of the Boggle board using a set of predefined dice.
+boggle_dict.txt: A text file containing valid words for the game, used for word validation.
+button.py: Defines the LetterButton class for creating letter buttons on the game board.
+ex12_utils.py: Contains utility functions for validating words and finding possible word paths on the board.
+final_frame.py: Implements the final game frame, which appears after the game ends, asking if the player wants to play again.
+game_frame.py: Manages the main game interface, including the timer, score display, and word input handling.
+start_game_frame.py: Sets up the initial game interface, allowing players to start a new game.
